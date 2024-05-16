@@ -32,6 +32,7 @@ public class PopulationManager : MonoBehaviour
             go.GetComponent<DNA>().r = Random.Range(0.0f, 1.0f);
             go.GetComponent<DNA>().g = Random.Range(0.0f, 1.0f);
             go.GetComponent<DNA>().b = Random.Range(0.0f, 1.0f);
+         //   go.GetComponent<DNA>().s = Random.Range(0.1f, 0.3f);
             population.Add(go);
         }    
     }
